@@ -17,6 +17,18 @@
 body {
 font-family:'Renner*', 'Lato', 'Noto Sans Japanese', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 }
+/* 親要素 */
+.parents {
+  position: relative;
+}
+/* 子要素 */
+.child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
     </style>
   </head>
   <body>
@@ -24,7 +36,8 @@ font-family:'Renner*', 'Lato', 'Noto Sans Japanese', '游ゴシック Medium', '
   <div class="page-content">
     <!-- Content -->
     <div class="content clearfix">
-      <div id="colors" class="container mb-5">
+      <div id="colors" class="container mb-5 parents">
+        <div class="child">
 
 <h3>こんにちは Hello, world!</h3>
 <ul>
@@ -33,6 +46,7 @@ font-family:'Renner*', 'Lato', 'Noto Sans Japanese', '游ゴシック Medium', '
 <li><a href="./app-promo.html">app-promo.html</a></li>
 </ul>
 
+        </div>
       </div>
     </div>
   </div>
