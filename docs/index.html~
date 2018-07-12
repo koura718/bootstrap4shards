@@ -46,7 +46,7 @@ font-family:'Renner*', 'Lato', 'Noto Sans Japanese', '游ゴシック Medium', '
 <li><a href="./app-promo.html">app-promo.html</a></li>
 </ul>
 
-<!-- blockquote class="blockquote"-->
+<blockquote class="blockquote">
 <p style="white-space: pre;">
    38  mkdir github
    39  cd github
@@ -115,7 +115,7 @@ font-family:'Renner*', 'Lato', 'Noto Sans Japanese', '游ゴシック Medium', '
   102  git commit -m "change-2parents index.html commit"
   103  git push -u origin master
 </p>
-<!-- /blockquote-->
+</blockquote>
         </div>
       </div>
     </div>
